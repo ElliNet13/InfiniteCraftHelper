@@ -60,7 +60,7 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
 
       - name: Build script
-        run: npm run build
+        run: npm run build && ls ./site
 
       - name: Checkout
         uses: actions/checkout@v4
