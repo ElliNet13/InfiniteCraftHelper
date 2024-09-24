@@ -11,7 +11,7 @@ function semverCompare(current: string, latest: string) {
 export function init(elements: elements) {
 	GM.xmlHttpRequest({
 		method: 'GET',
-		url: `https://github.com/Mikarific/InfiniteCraftHelper/raw/main/gorilla.json`,
+		url: `https://github.com/ElliNet13/InfiniteCraftHelper/raw/main/gorilla.json`,
 		onload: (response) => {
 			if (response.status === 200) {
 				const responseJSON = JSON.parse(response.responseText);
