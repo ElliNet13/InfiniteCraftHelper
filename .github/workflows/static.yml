@@ -39,25 +39,9 @@ jobs:
         with:
           node-version: '18' # Specify the Node.js version
 
-      # Restore npm cache before installation
-      - name: Restore npm cache
-        uses: actions/cache@v4
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
-
       # Install npm dependencies
       - name: Install dependencies
         run: npm install
-
-      # Cache npm modules after installation
-      - name: Cache npm modules
-        uses: actions/cache@v4
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
 
       - name: Build script
         run: npm run build && ls ./site
