@@ -4,8 +4,8 @@
     "type": "module",
     "scripts": {
         "server": "bun run server/index.ts",
-        "build": "bunx gorilla --input ./script/index.ts --output ./dist/InfiniteCraftHelper.user.js --config ./gorilla.json",
-        "build:npm": "gorilla --input ./script/index.ts --output ./dist/InfiniteCraftHelper.user.js --config ./gorilla.json",
+        "build": "bunx gorilla --input ./script/index.ts --output ./script.user.js --config ./gorilla.json",
+        "build:npm": "gorilla --input ./script/index.ts --output ./script.user.js --config ./gorilla.json",
         "drizzle:migrate": "bunx drizzle-kit generate:sqlite --schema ./server/handlers/db/schema.ts --out ./server/drizzle && bun run ./server/handlers/db/migrate.ts",
         "drizzle:studio": "cd server && bunx drizzle-kit studio"
     },
