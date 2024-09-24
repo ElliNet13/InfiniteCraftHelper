@@ -3,7 +3,7 @@
 	"namespace": "mikarific.com",
 	"match": ["https://neal.fun/infinite-craft/*"],
 	"version": "2.1.3",
-	"author": "Mikarific",
+	"author": "ElliNet13",
 	"description": "A script that adds various useful features to Infinite Craft.",
 	"icon": "https://i.imgur.com/WlkWOkU.png",
 	"grant": ["GM.getValue", "GM.setValue", "GM.xmlHttpRequest", "unsafeWindow"],
@@ -12,8 +12,8 @@
 	"inject-into": "page",
 	"sandbox": "raw",
 	"connect": "*",
-	"downloadURL": "https://github.com/Mikarific/InfiniteCraftHelper/raw/main/dist/InfiniteCraftHelper.user.js",
-	"updateURL": "https://github.com/Mikarific/InfiniteCraftHelper/raw/main/dist/InfiniteCraftHelper.user.js",
+	"downloadURL": "https://ellinet13.github.io/InfiniteCraftHelper/raw/main/dist/InfiniteCraftHelper.user.js",
+	"updateURL": "https://ellinet13.github.io/InfiniteCraftHelper.user.js",
 	"supportURL": "https://discord.gg/NSMut3Wx3Y",
 	"homepageURL": "https://discord.gg/NSMut3Wx3Y"
 }
