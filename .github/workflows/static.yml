@@ -62,9 +62,6 @@ jobs:
       - name: Build script
         run: npm run build && ls ./site
 
-      - name: Checkout
-        uses: actions/checkout@v4
-
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
