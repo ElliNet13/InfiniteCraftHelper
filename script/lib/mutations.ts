@@ -42,7 +42,7 @@ export function init(elements: elements) {
 				if (contributeToDatabase && unsafeWindow.fetch.toString() === cleanFetch) {
 					GM.xmlHttpRequest({
 						method: 'POST',
-						url: `https://infinitecraft.mikarific.com/recipe`,
+						url: `https://ellinet13.pythonanywhere.com/add_recipe`,
 						data: JSON.stringify({
 							first: {
 								text: first.text,
