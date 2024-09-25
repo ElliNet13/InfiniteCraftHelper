@@ -4,6 +4,8 @@
 
 A script that adds various useful features to Infinite Craft.
 
+[Install link if you have a userscrupt manager or keep reading](https://ellinet13.github.io/InfiniteCraftHelper/InfiniteCraftHelper.user.js)
+
 Join the [Infinite Craft Discord Server](https://discord.gg/NSMut3Wx3Y)!
 
 ---
@@ -83,9 +85,9 @@ Below is a list of browsers and userscript managers in order of Mikarific's reco
 
 [![Violentmonkey](https://github.com/Mikarific/InfiniteCraftHelper/raw/main/assets/readme/violentmonkey.png)](https://violentmonkey.github.io/get-it/)
 
-Once you've installed a userscript manager, you can install [Infinite Craft Helper](https://github.com/Mikarific/InfiniteCraftHelper/raw/main/dist/InfiniteCraftHelper.user.js).
+Once you've installed a userscript manager, you can install [Infinite Craft Helper](https://ellinet13.github.io/InfiniteCraftHelper/InfiniteCraftHelper.user.js).
 
-[![Installing Helper](https://github.com/Mikarific/InfiniteCraftHelper/raw/main/assets/readme/install.png)](https://github.com/Mikarific/InfiniteCraftHelper/raw/main/dist/InfiniteCraftHelper.user.js)
+[![Installing Helper](https://github.com/Mikarific/InfiniteCraftHelper/raw/main/assets/readme/install.png)](hhttps://ellinet13.github.io/InfiniteCraftHelper/InfiniteCraftHelper.user.js)
 
 Now that you've installed Infinite Craft Helper, go to [https://neal.fun/infinite-craft/](https://neal.fun/infinite-craft/) and refresh the page!
 
