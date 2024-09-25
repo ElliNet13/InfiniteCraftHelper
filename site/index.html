@@ -7,16 +7,6 @@
 <body>
   <a href="InfiniteCraftHelper.user.js">Get Infinite Craft Helper</a><br>
   <a href="solver">Infinite Craft Solver</a>
-     <div id="markdown-content"></div>
-    <script>
-        async function renderMarkdown() {
-            const response = await fetch('https://raw.githubusercontent.com/ElliNet13/InfiniteCraftHelper/refs/heads/main/README.md');
-            const markdown = await response.text();
-            const htmlContent = marked(markdown);
-            document.getElementById('markdown-content').innerHTML = htmlContent;
-        }
-
-        renderMarkdown();
-    </script>
+  <object data="README" type="text/html"></object>
 </body>
 </html>
