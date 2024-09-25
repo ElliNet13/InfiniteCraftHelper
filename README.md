@@ -65,7 +65,7 @@ Infinite Craft Helper lets you right click on an element in the sidebar to see h
 
 # How do I install Infinite Craft Helper?
 
-First, you need to install a userscript manager. For most people, Mikarific's recommendation is [Violentmonkey](https://violentmonkey.github.io/get-it/) because [it's completely open source](https://github.com/violentmonkey/violentmonkey) and [doesn't track you with Google Analytics](https://redd.it/6hs59w/). However, any Greasemonkey 4.0+ compatible userscript manager should work. I use [Tampermonkey](https://www.tampermonkey.net/).
+First, you need to install a userscript manager. For most people, Mikarific's recommendation is [Violentmonkey](https://violentmonkey.github.io/get-it/) because [it's completely open source](https://github.com/violentmonkey/violentmonkey) and [doesn't track you with Google Analytics](https://redd.it/6hs59w/). However, any Greasemonkey 4.0+ compatible userscript manager should work. I use [Tampermonkey](https://www.tampermonkey.net/). If you use Tampermonkey you may get some popups about it trying to connect to stuff.
 
 Below is a list of browsers and userscript managers in order of Mikarific's recommendation.
 
